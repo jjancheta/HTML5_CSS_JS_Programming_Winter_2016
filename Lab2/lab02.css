@@ -1,0 +1,121 @@
+/*<!-- Lab02.css -->
+<!-- Name: ANCHETA, Jesus Jr -->
+<!-- ID#: 017 433 152 -->*/
+
+body{
+    background-color: lightgrey;
+    font-family:sans-serif;
+    font-size:10pt;
+}
+
+.header3{
+    text-align:center;
+}
+
+.mainBox{
+    display:table; 
+    width:90%; 
+    border-width:2px; 
+    border-style:solid;
+    border-color:red;
+    margin-top:3px;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.subBox1{
+    display:table-cell; 
+    width:35%;
+    border: black;
+    border-style:none dashed none dashed;
+}
+
+.subBox2{
+    display:table-cell; 
+    width:35%;
+} 
+
+.innerBox{
+    display:table;
+    border-width:2px; 
+    border-style:solid;
+    border-color:midnightblue;
+    padding: 5pt;
+    font-weight: bold;
+    margin:10pt;
+    background-color: white;
+}
+
+.figurecaption{
+    display:block;
+    border-width:2px; 
+    border-style:solid;
+    border-color:midnightblue;
+    padding: 3pt;
+    font-weight: bold;
+    width:200px;
+    margin: 3pt auto;
+    text-align: center;
+    background-color: white;
+}
+
+dt{
+    margin-left:3em;
+}
+
+dd{
+  margin-left:6em;  
+}
+
+img{
+      display:block;
+      margin-left: auto;
+      margin-right: auto;
+      width:200px;
+      height:200px;
+}
+
+a:link, a:visited{
+     display:block;
+     margin-left: 20pt;
+     padding: 3pt;
+     margin-bottom: 5pt;
+     text-decoration: none;
+}
+    
+p{
+    text-indent: 10pt;
+    text-decoration: underline;
+    font-weight: bold;
+}
+    
+table{
+    border: 3pt;
+    border-color: black;
+    border-style: solid;
+    border-spacing: 3pt;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: separate;
+    width:80%;
+}
+
+td,th{
+    border: 1pt;
+    border-color: black;
+    border-style: solid;
+    border-spacing: 2pt;
+    padding: 5pt;
+}
+
+.caption1{
+    margin-bottom:10px;
+}
+
+.caption2{
+    caption-side:bottom;
+}
+
+td.table1{
+    width:300px;
+}
