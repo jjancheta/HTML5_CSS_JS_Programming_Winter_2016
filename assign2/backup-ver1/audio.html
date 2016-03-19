@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Assign2-Audio</title>
+    <link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen" /> 
+    <link rel="stylesheet" href="css/sitecss.css"   type="text/css" media="screen" />
+  </head>
+<body>
+    <!--Menu Bar-->
+    <a id="Top"></a>
+    <nav>
+        <ul>
+            <li><a href ="https://zenit.senecac.on.ca/~int222_161f02/index.html">My zenit Account</a></li>
+            <li><a href ="index.html">Home</a></li>
+            <li><a href="gallery.html">Photo Gallery</a></li>
+            <li><a href="video.html">Video</a></li>
+            <li><a href ="audio.html">Audio</a></li>
+            <li><a href="html5.html">HTML5</a></li>
+            <li><a href="tables.html">Table with CSS</a></li>
+            <li><a href="guestbook/index.html">Guest Book</a></li>
+            <li><a href="css/sitecss.css">CSS Used</a></li>
+            <li><a href="extra/index.html">Extra</a></li>
+        </ul> 
+    </nav>
+    
+    <!--Contents-->
+    <div class =box1>
+        <h1>Audio</h1>
+        <div class="videoDescription">
+            <h4>Audio implementation in HTML5</h4>
+            <p>This audio, Bring Him Home, is from the famous musical broadway Les Miserables.  This is an excellent rendition played by The PianoGuys.<br/> <em>Source: https://www.youtube.com/watch?v=5mJ08-pyDLg</em> </p>
+        </div>
+        <br/>   
+        
+        <div class="videoDescription">
+          <figure> 
+              <figcaption class="figcaptionborder">Bring Him Home(from Les Miserables) - The PianoGuys</figcaption>
+              <audio controls="controls">
+                 <source src="misc/Bring_Him_Home-_ThePianoGuys.mp3" type="audio/mp3"/> 
+                 <source src="misc/Bring_Him_Home-_ThePianoGuys.ogg" type="audio/ogg"/> 
+                 Your browser does not support the audio tag / type 
+              </audio>
+            </figure>         
+        </div>
+        <br/>       
+    </div>
+    
+    <div class="box2">
+        <h4 class="linksSocial">Audio Control Options</h4>
+        <div class ="control">
+             <button type="button">Play</button>
+             <button type="button">Pause</button>
+             <button type="button">Volume On</button>
+             <button type="button">Volume Off</button>
+             <button type="button">Increase Volume</button>
+             <button type="button">Decrease Volume</button>
+        </div>
+        
+        <hr/>
+         <!--Social Media Box-->
+        <h4 class="linksSocial">Social Media Links</h4>
+        <div class="socialBox">
+            <a id="facebook" href="http://facebook.com" title="Facebook" ></a> 
+            <a id="twitter" href="http://twitter.com" title="Twitter"></a> 
+            <a id="linkedin" href="http://www.linkedin.com" title="Linkedin"></a> 
+            <a id="youtube" href="http://www.youtube.com" title="Youtube" ></a> 
+            <a id="apple" href="http://www.apple.com" title="Apple" ></a> 
+        </div>
+        
+    </div>
+    
+
+    <!--Footer Bar-->
+    <footer>
+        <script>
+          var dt=new Date(document.lastModified);   // Get document last modified date
+          document.write('This page was last updated on '+dt.toLocaleString()) 
+        </script>
+    </footer>               
+</body>
+</html>    

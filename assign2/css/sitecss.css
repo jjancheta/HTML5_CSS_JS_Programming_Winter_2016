@@ -1,0 +1,376 @@
+/* CSS for all pages */
+
+/*Menu Bar*/
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#146EFF;
+    border: 1px solid white;
+    width:1272px;
+}
+
+nav li {
+    float: left;
+    border-right: 1px solid white;
+    text-align: center;
+
+}
+
+nav li a {
+    text-align: center;
+    padding: 14px 28px;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+}
+
+nav li a:hover {
+    background-color:#73AD21;
+}
+
+/* Social Media Box */
+
+.socialBox{
+    position: relative; 
+    background: url(../images/social-media.png) no-repeat; 
+    width: 250px; 
+    height: 140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#facebook{
+    width: 23px; 
+    height: 23px; 
+    border: 0; 
+    position: absolute;
+    top: 3px; 
+    left: 4px;
+}
+
+#twitter{
+    width: 23px; 
+    height: 23px; 
+    border: 0; 
+    position: absolute;
+    top: 3px; 
+    left: 31px;
+}
+#linkedin{
+    width: 23px; 
+    height: 23px; 
+    border: 0; 
+    position: absolute;
+    top: 3px; 
+    left: 141px;
+}
+#youtube{
+    width: 23px; 
+    height: 23px; 
+    border: 0; 
+    position: absolute;
+    top: 3px; 
+    left:222px;
+}
+#apple{
+    width: 23px; 
+    height: 23px; 
+    border: 0; 
+    position: absolute;
+    top: 84px; 
+    left:4px;
+}
+
+/* Footer Bar */
+footer{    
+    width: 1272px;
+    height:25px;
+    background-color: #146EFF;
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 12px;
+    margin-top: 5px;
+    border: 1px solid white;
+    display:inline-block;
+}
+
+hr{
+    border:3px solid #AE59FF;
+}
+
+.box1{
+    width:890px;
+    background-color: #A7C2BB;
+    float:left;
+    margin-top:10px;
+    margin-left:10px;
+    padding: 10px;
+}
+
+.box2{
+    width:308px;
+    background-color: #A7C2BB;
+    float:left;
+    margin-top:10px;
+    margin-left:10px;
+    padding: 10px;
+}
+
+.clearfix{
+    clear:both;
+}
+
+/* CSS for home.html */
+
+.htmlHonesty{
+    font-size:15px;
+    background-color:white;
+    padding:10px;
+    text-align: justify;
+    line-height: 1.5;
+        
+}
+.linksSocial{
+    margin-top:10px;
+    text-align: center;
+    text-decoration:underline;
+}
+
+.home{
+    background-color: white;
+    width:250px;
+    margin-left:auto;
+    margin-right:auto;
+    padding:5px;
+}
+
+.home ul{
+    list-style: none;
+    list-style-image: url(../images/bullet_blue.png);
+}
+
+.home li a:link{
+    text-decoration: none;
+}
+
+.home li a:hover{
+    color:#EF4270;
+}
+
+.box2 label{
+    margin-left: 23px;
+}
+
+
+/* CSS for gallery.html */
+
+.country{
+    font-size:15px;
+    background-color:white;
+    padding:5px;
+    text-align: justify;
+    line-height: 1.5;
+    padding:10px
+}
+
+figcaption{
+    font-weight: bold;
+    text-align: center;
+}
+
+.dummy{
+    border:none;
+   
+}
+
+table.dummy td{
+    font-size:15px;
+    background:white;
+    border:none;
+    text-align: justify;
+}
+
+table.dummy tr{
+    border:none;
+}
+
+.gallery{
+    background-color: white;
+    width:250px;
+    margin-left:auto;
+    margin-right:auto;
+    padding:10px;
+}
+
+.gallery ul{
+    list-style: none;
+    list-style-image: url(../images/bullet_blue.png);
+}
+
+.gallery li a:link{
+    text-decoration: none;
+}
+
+.gallery li a:hover{
+    color:#EF4270;
+}
+
+
+/*CSS for video.html & audio.html */
+
+.videoDescription{
+    font-size:15px;
+    background-color:white;
+    padding:5px;
+    text-align: justify;
+}
+
+video{
+    width: 500px;
+    height:370px;
+    margin-bottom: 10px;
+    margin-left:150px;
+    margin-right:10px;    
+}
+
+.figcaptionborder{
+    width:500px;
+    border: 1px solid white;
+    background-color: #A7C2BB; 
+    padding: 5px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+button{
+    width:180px;
+    padding: 5px;
+    text-align: center; 
+    margin-top:10px;
+}
+
+.control{
+    background-color: white;
+    text-align: center;
+    width:250px;
+    margin-left:auto;
+    margin-right:auto;
+    padding:10px;
+}
+
+.control button:hover{
+    background-color: #86D4FA;
+    
+}
+
+audio{
+    width: 500px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    margin-left:150px;
+    margin-right:10px;    
+}
+
+/*CSS for html5.html*/
+
+.html5{
+    font-size:15px;
+    background-color:white;
+    padding:5px;
+    text-align: justify;
+    line-height: 1.5;
+    padding:10px
+}
+
+.listHTML5{
+    background-color: white;
+    width:250px;
+    margin-left:auto;
+    margin-right:auto;
+    padding:10px;
+    line-height: 1.5;
+}
+
+.listHTML5 li a:link{
+    text-decoration: none;
+}
+
+.listHTML5 li a:hover{
+    color:#EF4270;
+}
+
+/* CSS for tables.html*/
+
+.listCSS{
+    background-color: white;
+    width:250px;
+    margin-left:auto;
+    margin-right:auto;
+    padding:10px;
+    line-height: 1.5;
+}
+
+.outermost{
+    width:820px;
+    margin-left: auto;
+    margin-right:auto;
+    background-color: white;
+    padding: 60px 30px;
+    height:320px;
+}
+
+.outer{
+    width:650px;
+    margin-left: auto;
+    margin-right:auto;
+    border: 5px groove #74BAE4;
+    background-color: white;
+    padding: 20px 20px;
+}
+
+.inner{
+    width:500px;
+    border-collapse: separate;
+    border-spacing:20px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right:auto;
+    background-color: white;   
+}
+
+td,tr{
+    border: 1px solid black;
+    text-align: left;
+    padding: 5px;
+}
+
+.this{
+    background-color: #41BC83;        
+}
+
+.little{
+    background-color: #32CA97;        
+}
+
+.piggy{
+    background-color: #25D8BA;       
+}
+.went{
+    background-color: #12E8DE;       
+}
+.to{
+    background-color: #0CCCF1;       
+}
+.market{
+    background-color: #00A8FF;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Assign2-HTML5</title>
+    <link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen" /> 
+    <link rel="stylesheet" href="css/sitecss.css"   type="text/css" media="screen" />
+  </head>
+<body>
+    <!--Menu Bar-->
+    <a id="Top"></a>
+    <nav>
+        <ul>
+            <li><a href ="https://zenit.senecac.on.ca/~int222_161f02/index.html">My zenit Account</a></li>
+            <li><a href ="index.html">Home</a></li>
+            <li><a href="gallery.html">Photo Gallery</a></li>
+            <li><a href="video.html">Video</a></li>
+            <li><a href ="audio.html">Audio</a></li>
+            <li><a href="html5.html">HTML5</a></li>
+            <li><a href="tables.html">Table with CSS</a></li>
+            <li><a href="guestbook/index.html">Guest Book</a></li>
+            <li><a href="css/sitecss.css">CSS Used</a></li>
+            <li><a href="extra/index.html">Extra</a></li>
+        </ul> 
+    </nav>
+    
+    <!--Contents-->
+    <div class =box1>
+        <h1>HTML5</h1>
+        <div class="html5">
+            <h4>HTML5 new form attributes</h4>
+            <p>HTML5 introduces new input attributes and values.  This includes "autofucus", "placeholder", "required" and "list" as new attributes.  New type values such as "email" and "url" are also added which makes it easier to validated inputs of this format. </p>       
+        </div>
+        <br/>   
+        <div class="html5">
+            <a id="autofocus"></a>
+            <h4>How to set autofocus</h4>
+            <input type="text" name="entry01" id="entry01" autofocus="autofocus" placeholder="Autofocus">
+            <input type="Submit"><br/>
+            &lt;input type="text" name="entry01" id="entry01" autofocus="autofocus">
+            <hr/>    
+            
+            <a id="placeholder"></a>
+            <h4>How to set placeholder</h4>
+            <input type="text" name="entry02" id="entry02" placeholder="Passport Number">
+            <input type="Submit"><br/>
+            &lt;input type="text" name="entry02" id="entry02" placeholder="Passport Number">
+            <hr/>    
+            
+            <a id="required"></a>
+            <h4>How to set required for an entry</h4>
+            <input type="text" name="entry03" id="entry03" required="required" placeholder="Required ID">
+            <input type="Submit"><br/>
+            &lt;input type="text" name="entry03" id="entry03" required="required" placeholder="Required ID"/><br>
+            <hr/> 
+            
+            <a id="datalist"></a>
+            <h4>How to create a list/datalist</h4>
+            <input list="entry04" name="entry04" placeholder="Marital Status">
+                <datalist id="entry04">
+                    <option value="Single">Single</option>
+                    <option value="Married">Married</option>
+                    <option value="Widow/Widower">Widow/Widower</option>
+                    <option value="Divorced">Divorced</option>
+                    <option value="Complicated">Complicated</option>
+                </datalist>
+            <input type="Submit"><br/>
+              &lt;input list="entry04" name="entry04" placeholder="Marital Status"><br/>
+                &lt;datalist id="entry04"><br/>
+                     &lt;option value="Single">Single&lt;/option><br/>
+                     &lt;option value="Married">Married&lt;/option><br/>
+                     &lt;option value="Widow/Widower">Widow/Widower&lt;/option><br/>
+                     &lt;option value="Divorced">Divorced&lt;/option><br/>
+                     &lt;option value="Complicated">Complicated&lt;/option><br/>
+                 &lt;/datalist><br/>
+            <hr/>    
+            
+            <a id="email"></a>
+            <h4>How to ensure a valid email address format</h4>
+            <input type="email" name="entry05" id="entry05" placeholder="Email">
+            <input type="Submit"><br/>
+            &lt;input type="email" name="entry05" id="entry05" placeholder="Email">
+            <hr/> 
+            
+            <a id="url"></a>
+            <h4>How to ensure a valid url format</h4>
+            <input type="url" name="entry06" id="entry06" placeholder="URL">
+            <input type="Submit"><br/>
+            &lt;input type="url" name="entry06" id="entry06" placeholder="URL">
+            
+        </div>
+    </div>
+   
+    <div class="box2">
+        <h4 class="linksSocial">New HTML5 Attributes</h4>
+        <div class="listHTML5">
+            <ol>
+                <li><a href="#autofocus">autofocus="autofocus"</a></li>
+                <li><a href="#placeholder">placeholder="Passport#"</a></li>
+                <li><a href="#datalist">list="status" <br/>datalist id="status"<br/>option value="Single"</a></li>
+                <li><a href="#email">type="email"</a></li>
+                <li><a href="#url">type="url"</a></li>    
+            </ol>
+        </div>    
+        
+        <hr/>
+         <!--Social Media Box-->
+        <h4 class="linksSocial">Social Media Links</h4>
+        <div class="socialBox">
+            <a id="facebook" href="http://facebook.com" title="Facebook" ></a> 
+            <a id="twitter" href="http://twitter.com" title="Twitter"></a> 
+            <a id="linkedin" href="http://www.linkedin.com" title="Linkedin"></a> 
+            <a id="youtube" href="http://www.youtube.com" title="Youtube" ></a> 
+            <a id="apple" href="http://www.apple.com" title="Apple" ></a> 
+        </div>   
+    </div>
+
+    <!--Footer Bar-->
+    <footer>
+        <script>
+          var dt=new Date(document.lastModified);   // Get document last modified date
+          document.write('This page was last updated on '+dt.toLocaleString()) 
+        </script>
+    </footer>               
+</body>
+</html>    

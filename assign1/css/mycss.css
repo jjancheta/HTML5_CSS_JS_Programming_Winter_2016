@@ -1,0 +1,347 @@
+/* *********************************************************
+   These are the styles common to all Assignment #1 pages
+   ********************************************************* */
+
+.mainBox{
+    width:100%;
+    height:100%;
+    font-family: Arial, sans-serif, serif;
+}
+
+.menuBox{
+    display:inline-block;
+    width:25%;
+    height:100%;
+    margin-top: -15px;
+}
+
+/*side menu bar*/
+.sideMenu2{                        
+    list-style-type: none;
+    padding: 0;
+    background-color: #e6e6e6;
+    border-radius: 10px;
+    border:1px solid #00bfff;
+   
+}
+
+.sideMenu3{
+    display: block;
+    color: #000;
+    padding: 8px 0 8px 50px;
+    text-decoration: none;
+}
+
+.sideMenu4:hover {
+    background-color: #808080;
+    color:#ffffff;
+    border-radius: 10px;
+    
+}
+
+.default {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    background-color: #73AD21;
+    color:#ffffff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size:15pt;
+    font-weight: bold;
+    text-align: center;
+}
+
+.pageTab{
+    position:relative;
+    top: -85px;
+    right: -29em;
+    overflow: hidden;
+    padding: 1em 1em 0;
+    width: 20%;
+    text-align: center;
+    margin-bottom: -35pt;
+}
+
+.tabBorder{
+    display:block;
+    font-size: 20pt;
+    border-width: 1px 1px 0;
+    background-color: #00bfff;
+    color:#fff;
+    padding: .1em .35em;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0 0 1em #999999;
+}
+
+.contentBox{
+    display:inline-block;
+    width:65%;
+    float:right;
+    border: 1px solid #00bfff;
+    box-shadow: 0 0 2em #999999;
+    border-radius:10px;
+    padding: 2em 2em 2em;
+    margin-bottom: .5em;
+}
+
+.textJustify{
+    text-align:justify;
+    line-height: 1.75;
+}
+
+/* *********************************************************
+   These are the styles used in the Assignment #1 Home page
+   ********************************************************* */ 
+
+.homePicture{
+    width:100%;
+}
+
+/* *********************************************************
+   These are the styles used in the Profile page
+   ********************************************************* */
+
+.photo{
+    width:200px;
+    float:left;
+    margin: 0 10px 10px 0;
+    background-color: lightgrey;
+    padding: 15px;
+    border: 2px solid navy;
+}
+
+.profileName{
+    font-family: "Arial Narrow",serif,sans-serif;
+    font-size: 20pt;
+    color:#1e90ff;
+}
+
+.profileTitle{
+    font-family: Arial, serif, sans-serif;
+    font-size: 10pt;
+    font-weight: normal;
+    margin-top:-20px;
+}
+
+.lineProfile{
+    border:10px #ffd700;
+    border-style: none none solid;
+    margin-bottom: 2em;
+}
+
+
+/* *********************************************************
+   These are the styles used in the Lists  page
+   ********************************************************* */
+ul.square{
+    list-style-type: square;
+}
+
+div.list1{
+    background-color:#ffd700;
+    padding:10px;
+}
+
+ol.lowerAlpha{
+    list-style-type: lower-alpha;
+}
+
+div.list2{
+    background-color:#00bfff;
+    padding:10px;
+}
+
+ul.nested{
+    list-style-type: circle;  
+}
+
+ol.nested{
+    list-style-type: lower-roman;
+}
+
+div.list3{
+    background-color:#f08080;
+    padding:10px;
+}
+
+dl{
+    display:block;
+    padding-left:20px;
+}
+dt{
+    font-weight: bold;
+}
+
+div.list4{
+    background-color:#98fb98;
+    padding:10px;
+    
+}
+
+/* *********************************************************
+   These are the styles used in the Text  page
+   ********************************************************* */
+.lineText{
+    border:5px #f08080;
+    border-style: none none solid;
+    margin-bottom: 1em;
+}
+
+p.letterSpace{
+    letter-spacing: 3px;
+}
+
+p.underline{
+    text-decoration: underline;
+}
+
+p.wordSpace{
+    word-spacing: 30px;
+}
+
+p.indent{
+    text-indent: 40px;
+}
+
+p.color{
+    background-color: #000099;
+    color: #ffffff;
+}
+
+p.font{
+    font-family: "Times New Roman", serif, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+span.italic{
+    font-style: italic;
+}
+
+#underline2{
+    text-decoration: underline;
+}
+
+p.upper{
+    text-transform: uppercase;
+}
+
+/* *********************************************************
+   These are the styles used in the Table page
+   ********************************************************* */
+
+table.part1{
+    border-collapse: separate;
+    border-spacing: 10px;
+    width: 500px;
+    border-width: 4px;
+    border-color:#000000;
+    border-style: solid;
+    margin: 0 auto 5px auto;
+    font-size: 12pt;
+    background-color: #e0ffff;
+}
+
+table.part2{
+    border-collapse: separate;
+    border-spacing: 10px;
+    width: 300px;
+    border-width: 8px;
+    border-color:#000000;
+    border-style: solid;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    caption-side: bottom;
+    font-size: 12pt;
+}
+
+caption{
+    font-size: 10pt;
+}
+
+th{
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    
+}
+
+td{
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    height:60px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.alignLeft{
+    text-align:left;
+    font-weight:normal;
+}
+.alignRight{
+    text-align:right;
+    font-weight:normal;
+}
+.alignMid{
+    text-align:center;
+    font-weight:normal;
+}
+.vertTop{
+    vertical-align:top;
+    font-weight:normal;
+}
+.vertMid{
+    vertical-align:middle;
+    font-weight:normal;
+}
+.vertBot{
+    vertical-align:bottom;
+    font-weight:normal;
+}
+/* *********************************************************
+   These are the styles used in the Contact page
+   ********************************************************* */
+.backgroundContact{
+    background-color: #ec2d53;
+    color:#fff;
+    display:table;
+    padding:15px 50px;
+    width:83%;
+}
+
+.email{
+    color:#fff;
+}
+
+iframe{
+    width:500px; 
+    height:250px; 
+    border:1pt;
+    border:solid;
+    margin-bottom: 5px;
+}
+
+
+/*********************************************************
+   These are the styles used in the Honesty page
+********************************************************* */
+
+#Honesty{
+    display:table;
+    line-height: 2;
+    font-size: 11pt;
+    border:25px #ffdf33;
+    border-style:inset;
+    padding:20px;
+}
+
+.name{
+    font-family: "Arial Black", serif, sans-serif;
+    font-size: 13pt;
+    text-decoration: underline;
+}
+

@@ -1,0 +1,86 @@
+/* CSS for all pages */
+
+/*Menu Bar*/
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#146EFF;
+    border: 1px solid white;
+    width:1272px;
+}
+
+nav li {
+    float: left;
+    border-right: 1px solid white;
+    text-align: center;
+
+}
+
+nav li a {
+    text-align: center;
+    padding: 14px 28px;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+}
+
+nav li a:hover {
+    background-color:#73AD21;
+}
+
+.box1{
+    width:1240px;
+    background-color: #A7C2BB;
+    float:left;
+    margin-top:10px;
+    margin-left:10px;
+    padding: 10px;
+}
+
+.guestbook1{
+    width:599px;
+    height:400px;
+    font-size:15px;
+    background-color:white;
+    padding:10px 10px;
+    line-height: 2.5;
+    float:left;
+        
+}
+
+.guestbook2{
+    width:599px;
+    height:400px;
+    font-size:15px;
+    background-color:white;
+    padding:10px 10px;
+    line-height: 2;
+    float:left;
+        
+}
+
+.clearfix{
+    clear:both;
+}
+
+td,tr{
+    vertical-align: top;
+    width:150px;    
+}
+
+
+/* Footer Bar */
+footer{    
+    width: 1272px;
+    height:25px;
+    background-color: #146EFF;
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 12px;
+    margin-top: 5px;
+    border: 1px solid white;
+    display:inline-block;
+}

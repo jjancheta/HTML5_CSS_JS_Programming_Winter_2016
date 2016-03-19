@@ -1,0 +1,46 @@
+/* CSS for all pages */
+
+/*Menu Bar*/
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border: 1px solid white;
+    width:1272px;
+}
+
+nav li {
+    float: left;
+    border-right: 1px solid white;
+    text-align: center;
+
+}
+
+nav li a {
+    text-align: center;
+    padding: 14px 28px;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+}
+
+nav li a:hover {
+    background-color:#73AD21;
+}
+
+
+/* Footer Bar */
+footer{    
+    width: 1272px;
+    height:25px;
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 12px;
+    margin-top: 5px;
+    border: 1px solid white;
+    display:inline-block;
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Assign2-Tables</title>
+    <link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen" /> 
+    <link rel="stylesheet" href="css/sitecss.css"   type="text/css" media="screen" />
+  </head>
+<body>
+    <!--Menu Bar-->
+    <a id="Top"></a>
+    <nav>
+        <ul>
+            <li><a href ="https://zenit.senecac.on.ca/~int222_161f02/index.html">My zenit Account</a></li>
+            <li><a href ="index.html">Home</a></li>
+            <li><a href="gallery.html">Photo Gallery</a></li>
+            <li><a href="video.html">Video</a></li>
+            <li><a href ="audio.html">Audio</a></li>
+            <li><a href="html5.html">HTML5</a></li>
+            <li><a href="tables.html">Table with CSS</a></li>
+            <li><a href="guestbook/index.html">Guest Book</a></li>
+            <li><a href="css/sitecss.css">CSS Used</a></li>
+            <li><a href="extra/index.html">Extra</a></li>
+        </ul> 
+    </nav>
+    
+    <!--Contents-->
+    <div class =box1>
+        <h1>Table with CSS</h1>
+        <div class="outermost">
+            <div class="outer">
+                <table class="inner">
+                    <caption>HTML Table with CSS</caption>
+                    <tr>
+                        <td class="this">This</td>
+                        <td class="little">Little</td>
+                        <td class="piggy">Piggy</td>
+                        <td class="went">Went</td>
+                        <td class="to">To</td>
+                        <td class="market">Market</td>
+                    </tr>
+                     <tr>
+                        <td class="this" colspan="2">This</td>
+                        <td class="little">Little</td>
+                        <td class="piggy">Piggy</td>
+                        <td class="went">Went</td>
+                        <td class="to">To</td>
+                    </tr>
+                     <tr>
+                        <td class="this" colspan="4">This</td>
+                        <td class="little" rowspan="3">Little</td>
+                        <td class="piggy">Piggy</td>
+                    </tr>
+                     <tr>
+                        <td class="this" rowspan="2">This</td>
+                        <td class="little">Little</td>
+                        <td class="piggy">Piggy</td>
+                        <td class="went">Went</td>
+                        <td class="to">To</td>
+                    </tr>
+                    <tr>
+                        <td class="little">Little</td>
+                        <td class="piggy">Piggy</td>
+                        <td class="went">Went</td>
+                        <td class="to">To</td>
+                    </tr>
+                </table>
+            </div>
+        </div> 
+    </div>      
+        
+    <div class="box2">
+        <h4 class="linksSocial">CSS Properties</h4>
+        <div class="listCSS">
+            <ol>
+                <li>width</li>
+                <li>height</li>
+                <li>margin</li>
+                <li>border</li>
+                <li>border-collapse</li>
+                <li>border-spacing</li>    
+                <li>padding</li>
+                <li>text-align</li>
+                <li>background-color</li>  
+            </ol>
+        </div>    
+        
+        <hr/>
+         <!--Social Media Box-->
+        <h4 class="linksSocial">Social Media Links</h4>
+        <div class="socialBox">
+            <a id="facebook" href="http://facebook.com" title="Facebook" ></a> 
+            <a id="twitter" href="http://twitter.com" title="Twitter"></a> 
+            <a id="linkedin" href="http://www.linkedin.com" title="Linkedin"></a> 
+            <a id="youtube" href="http://www.youtube.com" title="Youtube" ></a> 
+            <a id="apple" href="http://www.apple.com" title="Apple" ></a> 
+        </div>
+        
+    </div>
+      
+    
+
+    <!--Footer Bar-->
+    <footer>
+        <script>
+          var dt=new Date(document.lastModified);   // Get document last modified date
+          document.write('This page was last updated on '+dt.toLocaleString()) 
+        </script>
+    </footer>               
+</body>
+</html>    

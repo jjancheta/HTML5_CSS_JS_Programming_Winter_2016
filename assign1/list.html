@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>assignment 1 - list.html</title>
+    <link rel="stylesheet" href="https://zenit.senecac.on.ca/~emile.ohan/int222/assignments/assignment-01/normalize.css"  type="text/css" media="screen" /> 
+    <link rel="stylesheet" href="https://zenit.senecac.on.ca/~emile.ohan/int222/assignments/assignment-01/master.css" type="text/css" media="screen" /> 
+    <link rel="stylesheet" href="css/mycss.css" type="text/css" media="screen" /> 
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Main Home</a></li>
+        <li><a href="index.html">Assignment 1 Home</a></li>
+        <li><a href="profile.html">Profile</a></li>
+        <li><a href="list.html">Lists with CSS</a></li>
+        <li><a href="text.html">Text with CSS</a></li>
+        <li><a href="table.html">Tables with CSS</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="honesty.html">Honesty</a></li>
+        <li><a href="css/mycss.css">CSS Used</a></li>
+      </ul>
+    </nav>
+    <div id="content">
+      <div id="mcontent">
+        <header>
+          <p id="pageHeader">Lists With CSS</p>
+        </header>
+        <!-- Your code goes here -->
+         <div class="mainBox">
+            <div class="menuBox">
+                <!-- Side Menu - Important Links -->
+                <ul class="sideMenu2">
+                     <li><a class="default" href="#home">Important Links</a></li>
+                     <li><a class="sideMenu3 sideMenu4" href="http://www.senecacollege.ca/" target="_blank">Seneca College Home</a></li>
+                     <li><a class="sideMenu3 sideMenu4" href="https://scs.senecac.on.ca/" target="_blank">School of ICT</a></li>
+                     <li><a class="sideMenu3 sideMenu4" href="https://zenit.senecac.on.ca/~emile.ohan/int222/index.html" target="_blank">INT222 Website</a></li> 
+                </ul>     
+        
+                <ul class="sideMenu2">
+                     <li><a class="sideMenu3 sideMenu4" href="https://my.senecacollege.ca" target="_blank">My Blackboard</a></li>
+                     <li><a class="sideMenu3 sideMenu4" href="https://studenterp.senecacollege.ca/psp/ps/EMPLOYEE/CAMP/c/SA_LEARNER_SERVICES.SSS_STUDENT_CENTER.GBL" target="_blank">Student Center</a></li>
+                     <li><a class="sideMenu3 sideMenu4" href="https://inside.senecacollege.ca/learningcentres" target="_blank">Learning Center</a></li>
+                </ul>
+               
+                 <ul class="sideMenu2">
+                     <li><a class="sideMenu3 sideMenu4" href="profile.html">About</a></li>
+                     <li><a class="sideMenu3 sideMenu4" href="contact.html">Contact</a></li>
+                 </ul>    
+            </div> 
+            
+        <!-- Main content -->
+        <div class="contentBox">
+            <div class="pageTab"><span class="tabBorder">Lists</span></div>   
+           
+           <div class="list1">
+               <h4>Favorite Movies 2015</h4> 
+               <ul class ="square">
+                  <li>Mad Max: Fury Road</li>
+                  <li>Inside Out</li>
+                  <li>Selma</li>
+                  <li>Star Wars: Episode VII - The Force Awakens</li>
+                  <li>Brooklyn</li>
+               </ul>
+           </div>
+            
+          <hr/>
+          <div class="list2">       
+              <h4>Top 5 Destinations 2015 - World</h4> 
+              <ol class ="lowerAlpha">
+                  <li>Marrakech, Morroco</li>
+                  <li>Siem Reap, Cambodia</li>
+                  <li>Istanbul, TurkeyToronto</li>
+                  <li>Hanoi, Vietnam</li>
+                  <li>Prague, Czech Republic</li>
+              </ol>
+          </div> 
+            
+          <hr/>
+          <div class="list3">   
+              <h4>Human Anatomy 101</h4> 
+              <ul class ="nested">
+                  <li>Skeletal System
+                        <ol class = "nested">
+                            <li>Skull</li>
+                            <li>Teeth</li>
+                            <li>Spine</li>
+                        </ol>
+                  </li>
+                  <li>Cardiovascular System
+                        <ol class = "nested">
+                            <li>Heart</li>
+                            <li>Aorta</li>
+                            <li>Pulmonary Trunk</li>
+                        </ol>
+                  </li>      
+                  <li>Digestive System
+                        <ol class = "nested">
+                            <li>Mouth</li>
+                            <li>Liver</li>
+                            <li>Small Intestine</li>
+                        </ol>
+                  </li>            
+                </ul>
+            </div> 
+            
+            <hr/>
+            <div class="list4">
+                <h4>Accronyms and Definition</h4>
+                <dl>
+                    <dt>USA</dt>
+                        <dd>United States of America</dd>
+                        <dd>The largest and most powerful country in the world.</dd>
+                    <dt>UAE</dt>
+                        <dd>United Arab Emirates</dd>
+                        <dd>Known for having the tallest building in the world, Burj Khalifa.</dd>
+                    <dt>USSR</dt>
+                        <dd>Union of Soviet Socialist Republics</dd>
+                        <dd>Commonly known as Soviet Union between 1922 - 1991.</dd>
+                </dl>
+            </div>  
+          </div>   
+        </div>    
+        <!-- Your code ends here -->
+      </div>
+    </div>
+    <!-- Defining Footer -->
+    <footer>
+        <script>
+          var dt=new Date(document.lastModified);   // Get document last modified date
+          document.write('This page was last updated on '+dt.toLocaleString()) 
+        </script>
+    </footer>
+  </body>
+</html>
