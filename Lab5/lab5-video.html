@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Assign2-Video</title>
+    <link rel="stylesheet" href="../assign2/css/normalize.css" type="text/css" media="screen" /> 
+    <link rel="stylesheet" href="../assign2/css/sitecss.css"   type="text/css" media="screen" />
+  </head>
+<body>
+    <!--Menu Bar-->
+    <a id="Top"></a>
+    <nav>
+        <ul>
+            <li><a href ="https://zenit.senecac.on.ca/~int222_161f02/index.html">My zenit Account</a></li>
+            <li><a href ="../assign2/index.html">Home</a></li>
+            <li><a href="../assign2/gallery.html">Photo Gallery</a></li>
+            <li><a href="../assign2/video.html">Video</a></li>
+            <li><a href ="../assign2/audio.html">Audio</a></li>
+            <li><a href="../assign2/html5.html">HTML5</a></li>
+            <li><a href="../assign2/tables.html">Table with CSS</a></li>
+            <li><a href="../assign2/guestbook/index.html">Guest Book</a></li>
+            <li><a href="../assign2/css/sitecss.css">CSS Used</a></li>
+            <li><a href="../assign2/extra/index.html">Extra</a></li>
+        </ul> 
+    </nav>
+    
+    <!--Contents-->
+<div class="mainbox">
+    <div class =box1>
+        <h1>Video</h1>
+        <div class="videoDescription">
+            <h4>Video implementation in HTML5</h4>
+            <p>This short video explains the new capabilities or features of HTML5 though its a little bit outdated as this video was published 2 years before the official released date of HTML5. <br/> <em>Source:</em><a href="https://www.youtube.com/watch?v=mzPxo7Y6JyA">YouTube</a></p>
+        </div>
+        <br/>   
+        
+        <div class="videoDescription">
+          <figure> 
+              <video controls="controls" poster="images/html5.JPG">
+                 <source src="../assign2/misc/What%20is%20HTML5.mp4" type="video/mp4"/> 
+                 <source src="../assign2/misc/What_is_HTML5.ogv" type="video/ogv"/> 
+                 Your browser does not support the video tag / type 
+              </video>
+              <script>
+                   var video = document.getElementsByTagName('video')[0];
+                </script>
+         
+             <figcaption class="figcaptionborder">What is HTML5?</figcaption> 
+          </figure>      
+        </div>
+        <br/>       
+    </div>
+    
+    <div class="box2">
+        <h4 class="linksSocial">Video Control Options</h4>
+        <div class ="control">
+             <button type="button" onclick="video.play()">Play</button>
+             <button type="button" onclick="video.pause()">Pause</button>
+             <button type="button" onclick="video.load();video.play()">Replay</button>
+             <button type="button" onclick="video.load();video.controls=true">Show Controls</button>
+             <button type="button" onclick="video.load();video.controls=false">Hide Controls</button>
+        </div>
+        <hr/>
+         <!--Social Media Box-->
+        <h4 class="linksSocial">Social Media Links</h4>
+        <div class="socialBox">
+            <a id="facebook" href="http://facebook.com" title="Facebook" ></a> 
+            <a id="twitter" href="http://twitter.com" title="Twitter"></a> 
+            <a id="linkedin" href="http://www.linkedin.com" title="Linkedin"></a> 
+            <a id="youtube" href="http://www.youtube.com" title="Youtube" ></a> 
+            <a id="apple" href="http://www.apple.com" title="Apple" ></a> 
+        </div>    
+    </div>
+    </div>
+
+    <!--Footer Bar-->
+    <footer>
+        <script>
+          var dt=new Date(document.lastModified);   // Get document last modified date
+          document.write('This page was last updated on '+dt.toLocaleString()) 
+        </script>
+    </footer>               
+</body>
+</html>    

@@ -1,0 +1,32 @@
+[
+    {
+        "name": "CPA",
+        "semester": 1,
+        "courses": [  "APC100",  "IPC144",   "ULI101",    "IOS110",    "EAC150"    ]
+    },
+    {
+        "name": "CPA",
+        "semester": 2,
+        "courses": [  "IBC233",  "OOP244",  "INT222",   "DBS201",   "LIBXXX"      ]
+    },
+    {
+        "name": "CPA",
+        "semester": 3,
+        "courses": [ "DBS301",  "INT322",   "SYS366",   "LIBXXX",     "OOP345"     ]
+    },
+    {
+        "name": "CPA",
+        "semester": 4,
+        "courses": [  "DCN455",    "EAC397",   "INT422",   "SYS466",   "JAC444"   ]
+    },
+    {
+        "name": "CPA",
+        "semester": 5,
+        "courses": [  "PRJ566",  "LIBXXX",   "PROXXX",   "PROXXX",   "PROXXX"   ]
+    },
+    {
+        "name": "CPA",
+        "semester": 6,
+        "courses": [ "PRJ666",  "PROXXX",   "PROXXX",   "PROXXX",   "PROXXX"   ]
+    }
+]

@@ -1,0 +1,151 @@
+.mainbox{
+    margin-top:5px;
+    width:1200px;
+    border: 1px solid #7F7F7F;
+    background-color: #86D4FA;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius: 5px;
+    padding: 10px;
+    
+}   
+
+.innerbox1{
+    width:250px;
+    height: 506px;
+    float:left;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #7F7F7F;  
+}
+
+.innerbox2{
+    width: 475px;
+    border: 1px solid #7F7F7F;
+    background-color: #fff;
+    float:left;
+    padding: 10px;
+}
+
+.innerbox3{
+    width: 408px;
+    border: 1px solid #7F7F7F;
+    float:left;
+    background-color: #fff;
+    padding: 10px;  
+}
+
+.clearfix{
+  clear:both;
+}
+
+/*Title*/
+.innerbox1 span{
+    display:inline-block;
+    font-weight:bold;
+}
+.innerbox1 span:first-letter{
+    font-size: 35px;
+    color:#EF4270;     
+}
+
+/* Footer Bar */
+.footbar{
+    width: 1200px;
+    margin-top: 5px;
+    display:inline-block;
+    text-align: center;
+    background-color: #146EFF;
+    color:#fff;   
+}
+
+.footbar p{
+    margin:12px;
+}
+
+p span{
+    margin-right:50px;
+}
+
+p span a{
+     color:#fff;
+}
+
+table{
+    border-spacing: 5px;
+    border-collapse: separate;
+    font-size: 15px;
+}
+
+fieldset{
+    border: 1px solid blue;
+}
+
+legend{
+    color: red;
+    font-weight: bold;
+}
+
+hr{
+    border: 5px solid gold;
+}
+
+.centerText{
+    text-align: center;
+}
+
+input[type="submit"]{
+    background-color: #146EFF;
+    color:#fff;
+    padding:5px;   
+}
+
+.midPart{
+    margin-left:30px;
+    border-spacing: 5px;
+    border-collapse: separate;
+    font-size: 15px;
+}
+
+.midPart td{
+    width:185px;
+}
+
+caption{
+    text-align: left;
+    font-weight: bold;
+    padding-left:10px;
+}
+
+.boldText{
+    font-weight: bold;
+}
+
+input[type="button"]{
+    background-color: #AE59FF;
+    color:#fff;
+    padding:5px;
+    font-size:15px;
+}
+
+#errors{
+    width:386px;
+    height:326px;
+    border: 1px solid blue;
+    padding: 10px;
+    font-size: 12px;
+}
+
+form td:hover label {
+	color:           #369;
+    background:      #eee; 
+}
+form td:hover label:after {
+	content: " \2192";
+}
+
+textarea{
+    width: 445px;
+    height:36px;
+    resize: none;
+}
